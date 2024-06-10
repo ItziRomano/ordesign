@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+h1{
+    justify-content: left;
+    align-items: flex-start;
+    margin-right: 100px;
+    color: black;
+    font-family: 'Drexs';
+    src: url(/fuente/drexs-font/Drexs-z8gB3.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+.texto{
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 50%;
+    color: rgb(0, 0, 0);  
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 1), rgb(255 255 255 / .25)), url('./imagenes/casa1.jpeg');
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFF;
+}
+
+.portafolio-h1{
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo1{
+    justify-content: center;
+    margin-top: 60px;
+    color: black;
+    font-family: 'Drexs';
+    src: url(/fuente/drexs-font/Drexs-z8gB3.ttf);
+    font-style: light;
+    font-size: 70px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.texto2 {
+    font-display: center;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo2{
+    display: flex;
+    margin-top: 60px;
+    color: black;
+    font-family: 'Drexs';
+    src: url(/fuente/drexs-font/Drexs-z8gB3.ttf);
+    font-style: light;
+    font-size: 50px;
+}
+
+.texto3{
+    font-display: center;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.box2{
+    display:flexbox;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+img{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
